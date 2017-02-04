@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:background="#54000000"
+    android:paddingRight="5dp"
+    >
+        <ImageView
+            android:id="@+id/img_press_share"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="4dp"
+            android:clickable="true"
+            android:src="@drawable/mp4_mediacontrol_share_selector"
+            />
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="10dp"
+                android:clickable="true"
+                android:src="@drawable/tv_size" />
+
+            <TextView
+                android:id="@+id/txt_tvSize100"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="100%"
+                android:textColor="@drawable/mp4_tvsize100_selector"
+                android:clickable="true"
+                android:textSize="12dp"
+                />
+            <TextView
+                android:id="@+id/txt_tvSize75"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="75%"
+                android:clickable="true"
+                android:textColor="@drawable/mp4_tvsize75_selector"
+                android:textSize="12dp"
+                />
+            <TextView
+                android:id="@+id/txt_tvSize50"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="50%"
+                android:clickable="true"
+                android:textColor="@drawable/mp4_tvsize50_selector"
+                android:textSize="12dp"
+                />
+    <TextView
+        android:id="@+id/txt_tvSize_yuanshi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="4dp"
+        android:text="原始"
+        android:clickable="true"
+        android:textColor="@drawable/mp4_tvsize50_yuanshi_selector"
+        android:textSize="12dp"
+        />
+
+</LinearLayout>

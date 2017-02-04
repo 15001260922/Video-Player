@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\android studio-workplace\\Video-Player\\vitamio\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\scrubber_control_selector_holo.xml",
+        "source": "D:\\android studio-workplace\\Video-Player\\vitamio\\build\\intermediates\\bundles\\debug\\res\\drawable\\scrubber_control_selector_holo.xml"
+    },
+    {
+        "merged": "D:\\android studio-workplace\\Video-Player\\vitamio\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\mediacontroller_play_button.xml",
+        "source": "D:\\android studio-workplace\\Video-Player\\vitamio\\build\\intermediates\\bundles\\debug\\res\\drawable\\mediacontroller_play_button.xml"
+    },
+    {
+        "merged": "D:\\android studio-workplace\\Video-Player\\vitamio\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\mediacontroller_pause_button.xml",
+        "source": "D:\\android studio-workplace\\Video-Player\\vitamio\\build\\intermediates\\bundles\\debug\\res\\drawable\\mediacontroller_pause_button.xml"
+    },
+    {
+        "merged": "D:\\android studio-workplace\\Video-Player\\vitamio\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\scrubber_progress_horizontal_holo_dark.xml",
+        "source": "D:\\android studio-workplace\\Video-Player\\vitamio\\build\\intermediates\\bundles\\debug\\res\\drawable\\scrubber_progress_horizontal_holo_dark.xml"
+    }
+]

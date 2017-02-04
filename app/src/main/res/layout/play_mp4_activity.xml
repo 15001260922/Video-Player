@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:gravity="center"
+    android:background="#000000"
+    android:layout_height="match_parent">
+        <user_defined_view.Mp4_Screen_Double_Press_Big
+            android:id="@+id/playMp4_videoView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+
+            />
+        <include layout="@layout/mp4_media_controller" android:id="@+id/mp4_mediaController"/>
+        <include layout="@layout/mp4_media_controller_buffer_infolistener" android:id="@+id/mp4_buffer"/>
+</RelativeLayout>

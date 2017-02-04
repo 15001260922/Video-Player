@@ -1,0 +1,533 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Risky Project Location:
+-----------------------
+The tools *should* handle project locations in any directory. However,
+due to bugs, placing projects in directories containing spaces in the
+path, or characters like ", ' and &, have had issues. We're working to
+eliminate these bugs, but to save yourself headaches you may want to
+move your project to a location where this is not a problem.
+D:\android studio-workplace\Video-Player
+          -                             
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* VitamioDemo\
+* VitamioDemo\.classpath
+* VitamioDemo\.project
+* VitamioDemo\.settings\
+* VitamioDemo\.settings\org.eclipse.core.resources.prefs
+* VitamioDemo\AndroidManifest.xml
+* VitamioDemo\bin\
+* VitamioDemo\bin\AndroidManifest.xml
+* VitamioDemo\bin\R.txt
+* VitamioDemo\bin\VitamioDemo.apk
+* VitamioDemo\bin\classes.dex
+* VitamioDemo\bin\classes\
+* VitamioDemo\bin\classes\com\
+* VitamioDemo\bin\classes\com\example\
+* VitamioDemo\bin\classes\com\example\vitamiodemo\
+* VitamioDemo\bin\classes\com\example\vitamiodemo\BuildConfig.class
+* VitamioDemo\bin\classes\com\example\vitamiodemo\MainActivity$1.class
+* VitamioDemo\bin\classes\com\example\vitamiodemo\MainActivity$2.class
+* VitamioDemo\bin\classes\com\example\vitamiodemo\MainActivity$3.class
+* VitamioDemo\bin\classes\com\example\vitamiodemo\MainActivity$MyGestureListener.class
+* VitamioDemo\bin\classes\com\example\vitamiodemo\MainActivity$PlayAsyncTask.class
+* VitamioDemo\bin\classes\com\example\vitamiodemo\MainActivity.class
+* VitamioDemo\bin\classes\com\example\vitamiodemo\R$attr.class
+* VitamioDemo\bin\classes\com\example\vitamiodemo\R$color.class
+* VitamioDemo\bin\classes\com\example\vitamiodemo\R$dimen.class
+* VitamioDemo\bin\classes\com\example\vitamiodemo\R$drawable.class
+* VitamioDemo\bin\classes\com\example\vitamiodemo\R$id.class
+* VitamioDemo\bin\classes\com\example\vitamiodemo\R$layout.class
+* VitamioDemo\bin\classes\com\example\vitamiodemo\R$menu.class
+* VitamioDemo\bin\classes\com\example\vitamiodemo\R$string.class
+* VitamioDemo\bin\classes\com\example\vitamiodemo\R$style.class
+* VitamioDemo\bin\classes\com\example\vitamiodemo\R.class
+* VitamioDemo\bin\classes\com\example\vitamiodemo\Utils$1.class
+* VitamioDemo\bin\classes\com\example\vitamiodemo\Utils$2.class
+* VitamioDemo\bin\classes\com\example\vitamiodemo\Utils.class
+* VitamioDemo\bin\classes\io\
+* VitamioDemo\bin\classes\io\vov\
+* VitamioDemo\bin\classes\io\vov\vitamio\
+* VitamioDemo\bin\classes\io\vov\vitamio\R$color.class
+* VitamioDemo\bin\classes\io\vov\vitamio\R$drawable.class
+* VitamioDemo\bin\classes\io\vov\vitamio\R$id.class
+* VitamioDemo\bin\classes\io\vov\vitamio\R$layout.class
+* VitamioDemo\bin\classes\io\vov\vitamio\R$string.class
+* VitamioDemo\bin\classes\io\vov\vitamio\R$style.class
+* VitamioDemo\bin\classes\io\vov\vitamio\R.class
+* VitamioDemo\bin\dexedLibs\
+* VitamioDemo\bin\dexedLibs\android-support-v4-e99a202c910607762255b4a7f2be3f4b.jar
+* VitamioDemo\bin\dexedLibs\initactivity-0df974b166bc18f7059e2988b6598aa3.jar
+* VitamioDemo\bin\dexedLibs\initactivity-781cc34b65b80c6e2b0b5de8d9b9f1b1.jar
+* VitamioDemo\bin\jarlist.cache
+* VitamioDemo\bin\res\
+* VitamioDemo\bin\res\drawable-hdpi\
+* VitamioDemo\bin\res\drawable-hdpi\ic_launcher.png
+* VitamioDemo\bin\res\drawable-hdpi\mediacontroller_bg.png
+* VitamioDemo\bin\res\drawable-hdpi\video_brightness_bg.png
+* VitamioDemo\bin\res\drawable-hdpi\video_num_bg.png
+* VitamioDemo\bin\res\drawable-hdpi\video_num_front.png
+* VitamioDemo\bin\res\drawable-hdpi\video_volumn_bg.png
+* VitamioDemo\bin\res\drawable-mdpi\
+* VitamioDemo\bin\res\drawable-mdpi\ic_launcher.png
+* VitamioDemo\bin\res\drawable-xhdpi\
+* VitamioDemo\bin\res\drawable-xhdpi\ic_launcher.png
+* VitamioDemo\bin\res\drawable-xxhdpi\
+* VitamioDemo\bin\res\drawable-xxhdpi\btn_back_forword.png
+* VitamioDemo\bin\res\drawable-xxhdpi\btn_fast_forword.png
+* VitamioDemo\bin\res\drawable-xxhdpi\ic_launcher.png
+* VitamioDemo\bin\res\drawable-xxhdpi\loading_around.png
+* VitamioDemo\bin\res\drawable-xxhdpi\loading_icon.png
+* VitamioDemo\bin\resources.ap_
+* VitamioDemo\gen\
+* VitamioDemo\gen\com\
+* VitamioDemo\gen\com\example\
+* VitamioDemo\gen\com\example\vitamiodemo\
+* VitamioDemo\gen\com\example\vitamiodemo\BuildConfig.java
+* VitamioDemo\gen\com\example\vitamiodemo\R.java
+* VitamioDemo\gen\io\
+* VitamioDemo\gen\io\vov\
+* VitamioDemo\gen\io\vov\vitamio\
+* VitamioDemo\gen\io\vov\vitamio\R.java
+* VitamioDemo\ic_launcher-web.png
+* VitamioDemo\libs\
+* VitamioDemo\libs\android-support-v4.jar
+* VitamioDemo\proguard-project.txt
+* VitamioDemo\project.properties
+* VitamioDemo\res\
+* VitamioDemo\res\drawable-hdpi\
+* VitamioDemo\res\drawable-hdpi\ic_launcher.png
+* VitamioDemo\res\drawable-hdpi\mediacontroller_bg.png
+* VitamioDemo\res\drawable-hdpi\video_brightness_bg.png
+* VitamioDemo\res\drawable-hdpi\video_num_bg.png
+* VitamioDemo\res\drawable-hdpi\video_num_front.png
+* VitamioDemo\res\drawable-hdpi\video_volumn_bg.png
+* VitamioDemo\res\drawable-mdpi\
+* VitamioDemo\res\drawable-mdpi\ic_launcher.png
+* VitamioDemo\res\drawable-xhdpi\
+* VitamioDemo\res\drawable-xhdpi\ic_launcher.png
+* VitamioDemo\res\drawable-xxhdpi\
+* VitamioDemo\res\drawable-xxhdpi\btn_back_forword.png
+* VitamioDemo\res\drawable-xxhdpi\btn_fast_forword.png
+* VitamioDemo\res\drawable-xxhdpi\ic_launcher.png
+* VitamioDemo\res\drawable-xxhdpi\loading_around.png
+* VitamioDemo\res\drawable-xxhdpi\loading_icon.png
+* VitamioDemo\res\drawable\
+* VitamioDemo\res\drawable\loading_progressbar.xml
+* VitamioDemo\res\layout\
+* VitamioDemo\res\layout\activity_main.xml
+* VitamioDemo\res\layout\item_videoview.xml
+* VitamioDemo\res\menu\
+* VitamioDemo\res\menu\main.xml
+* VitamioDemo\res\values-sw600dp\
+* VitamioDemo\res\values-sw600dp\dimens.xml
+* VitamioDemo\res\values-sw720dp-land\
+* VitamioDemo\res\values-sw720dp-land\dimens.xml
+* VitamioDemo\res\values-v11\
+* VitamioDemo\res\values-v11\styles.xml
+* VitamioDemo\res\values-v14\
+* VitamioDemo\res\values-v14\styles.xml
+* VitamioDemo\res\values\
+* VitamioDemo\res\values\dimens.xml
+* VitamioDemo\res\values\strings.xml
+* VitamioDemo\res\values\styles.xml
+* VitamioDemo\src\
+* VitamioDemo\src\com\
+* VitamioDemo\src\com\example\
+* VitamioDemo\src\com\example\vitamiodemo\
+* VitamioDemo\src\com\example\vitamiodemo\MainActivity.java
+* VitamioDemo\src\com\example\vitamiodemo\Utils.java
+* ic_launcher-web.png
+* proguard-project.txt
+* vitamio\
+* vitamio\.classpath
+* vitamio\.project
+* vitamio\.settings\
+* vitamio\.settings\org.eclipse.jdt.core.prefs
+* vitamio\AndroidManifest.xml
+* vitamio\README.md
+* vitamio\bin\
+* vitamio\bin\AndroidManifest.xml
+* vitamio\bin\R.txt
+* vitamio\bin\classes\
+* vitamio\bin\classes\io\
+* vitamio\bin\classes\io\vov\
+* vitamio\bin\classes\io\vov\vitamio\
+* vitamio\bin\classes\io\vov\vitamio\BuildConfig.class
+* vitamio\bin\classes\io\vov\vitamio\EGL$ComponentSizeChooser.class
+* vitamio\bin\classes\io\vov\vitamio\EGL$EGLConfigChooser.class
+* vitamio\bin\classes\io\vov\vitamio\EGL$EGLContextFactory.class
+* vitamio\bin\classes\io\vov\vitamio\EGL$EGLWindowSurfaceFactory.class
+* vitamio\bin\classes\io\vov\vitamio\EGL$SimpleEGLConfigChooser.class
+* vitamio\bin\classes\io\vov\vitamio\EGL.class
+* vitamio\bin\classes\io\vov\vitamio\MediaFile$MediaFileType.class
+* vitamio\bin\classes\io\vov\vitamio\MediaFile.class
+* vitamio\bin\classes\io\vov\vitamio\MediaFormat.class
+* vitamio\bin\classes\io\vov\vitamio\MediaMetadataRetriever.class
+* vitamio\bin\classes\io\vov\vitamio\MediaPlayer$EventHandler.class
+* vitamio\bin\classes\io\vov\vitamio\MediaPlayer$OnBufferingUpdateListener.class
+* vitamio\bin\classes\io\vov\vitamio\MediaPlayer$OnCachingUpdateListener.class
+* vitamio\bin\classes\io\vov\vitamio\MediaPlayer$OnCompletionListener.class
+* vitamio\bin\classes\io\vov\vitamio\MediaPlayer$OnErrorListener.class
+* vitamio\bin\classes\io\vov\vitamio\MediaPlayer$OnHWRenderFailedListener.class
+* vitamio\bin\classes\io\vov\vitamio\MediaPlayer$OnInfoListener.class
+* vitamio\bin\classes\io\vov\vitamio\MediaPlayer$OnPreparedListener.class
+* vitamio\bin\classes\io\vov\vitamio\MediaPlayer$OnSeekCompleteListener.class
+* vitamio\bin\classes\io\vov\vitamio\MediaPlayer$OnTimedTextListener.class
+* vitamio\bin\classes\io\vov\vitamio\MediaPlayer$OnVideoSizeChangedListener.class
+* vitamio\bin\classes\io\vov\vitamio\MediaPlayer$TrackInfo.class
+* vitamio\bin\classes\io\vov\vitamio\MediaPlayer.class
+* vitamio\bin\classes\io\vov\vitamio\MediaScanner$FileCacheEntry.class
+* vitamio\bin\classes\io\vov\vitamio\MediaScanner$MyMediaScannerClient.class
+* vitamio\bin\classes\io\vov\vitamio\MediaScanner.class
+* vitamio\bin\classes\io\vov\vitamio\MediaScannerClient.class
+* vitamio\bin\classes\io\vov\vitamio\Metadata.class
+* vitamio\bin\classes\io\vov\vitamio\R$attr.class
+* vitamio\bin\classes\io\vov\vitamio\R$color.class
+* vitamio\bin\classes\io\vov\vitamio\R$drawable.class
+* vitamio\bin\classes\io\vov\vitamio\R$id.class
+* vitamio\bin\classes\io\vov\vitamio\R$layout.class
+* vitamio\bin\classes\io\vov\vitamio\R$string.class
+* vitamio\bin\classes\io\vov\vitamio\R$style.class
+* vitamio\bin\classes\io\vov\vitamio\R.class
+* vitamio\bin\classes\io\vov\vitamio\ThumbnailUtils.class
+* vitamio\bin\classes\io\vov\vitamio\VIntent.class
+* vitamio\bin\classes\io\vov\vitamio\Vitamio.class
+* vitamio\bin\classes\io\vov\vitamio\VitamioLicense.class
+* vitamio\bin\classes\io\vov\vitamio\activity\
+* vitamio\bin\classes\io\vov\vitamio\activity\InitActivity$1.class
+* vitamio\bin\classes\io\vov\vitamio\activity\InitActivity$UIHandler.class
+* vitamio\bin\classes\io\vov\vitamio\activity\InitActivity.class
+* vitamio\bin\classes\io\vov\vitamio\provider\
+* vitamio\bin\classes\io\vov\vitamio\provider\MediaStore$Audio$AudioColumns.class
+* vitamio\bin\classes\io\vov\vitamio\provider\MediaStore$Audio$Media.class
+* vitamio\bin\classes\io\vov\vitamio\provider\MediaStore$Audio.class
+* vitamio\bin\classes\io\vov\vitamio\provider\MediaStore$InternalThumbnails.class
+* vitamio\bin\classes\io\vov\vitamio\provider\MediaStore$MediaColumns.class
+* vitamio\bin\classes\io\vov\vitamio\provider\MediaStore$Video$Media.class
+* vitamio\bin\classes\io\vov\vitamio\provider\MediaStore$Video$Thumbnails.class
+* vitamio\bin\classes\io\vov\vitamio\provider\MediaStore$Video$VideoColumns.class
+* vitamio\bin\classes\io\vov\vitamio\provider\MediaStore$Video.class
+* vitamio\bin\classes\io\vov\vitamio\provider\MediaStore.class
+* vitamio\bin\classes\io\vov\vitamio\provider\MiniThumbFile.class
+* vitamio\bin\classes\io\vov\vitamio\utils\
+* vitamio\bin\classes\io\vov\vitamio\utils\Base64$Coder.class
+* vitamio\bin\classes\io\vov\vitamio\utils\Base64$Decoder.class
+* vitamio\bin\classes\io\vov\vitamio\utils\Base64$Encoder.class
+* vitamio\bin\classes\io\vov\vitamio\utils\Base64.class
+* vitamio\bin\classes\io\vov\vitamio\utils\CPU.class
+* vitamio\bin\classes\io\vov\vitamio\utils\ContextUtils.class
+* vitamio\bin\classes\io\vov\vitamio\utils\Crypto.class
+* vitamio\bin\classes\io\vov\vitamio\utils\Device.class
+* vitamio\bin\classes\io\vov\vitamio\utils\FileUtils.class
+* vitamio\bin\classes\io\vov\vitamio\utils\IOUtils.class
+* vitamio\bin\classes\io\vov\vitamio\utils\Log.class
+* vitamio\bin\classes\io\vov\vitamio\utils\ScreenResolution.class
+* vitamio\bin\classes\io\vov\vitamio\utils\StringUtils.class
+* vitamio\bin\classes\io\vov\vitamio\widget\
+* vitamio\bin\classes\io\vov\vitamio\widget\CenterLayout$LayoutParams.class
+* vitamio\bin\classes\io\vov\vitamio\widget\CenterLayout.class
+* vitamio\bin\classes\io\vov\vitamio\widget\MediaController$1.class
+* vitamio\bin\classes\io\vov\vitamio\widget\MediaController$2.class
+* vitamio\bin\classes\io\vov\vitamio\widget\MediaController$3.class
+* vitamio\bin\classes\io\vov\vitamio\widget\MediaController$4.class
+* vitamio\bin\classes\io\vov\vitamio\widget\MediaController$5.class
+* vitamio\bin\classes\io\vov\vitamio\widget\MediaController$6.class
+* vitamio\bin\classes\io\vov\vitamio\widget\MediaController$7.class
+* vitamio\bin\classes\io\vov\vitamio\widget\MediaController$8.class
+* vitamio\bin\classes\io\vov\vitamio\widget\MediaController$9.class
+* vitamio\bin\classes\io\vov\vitamio\widget\MediaController$MediaPlayerControl.class
+* vitamio\bin\classes\io\vov\vitamio\widget\MediaController$NextListener.class
+* vitamio\bin\classes\io\vov\vitamio\widget\MediaController$OnHiddenListener.class
+* vitamio\bin\classes\io\vov\vitamio\widget\MediaController$OnShownListener.class
+* vitamio\bin\classes\io\vov\vitamio\widget\MediaController$PlayControl.class
+* vitamio\bin\classes\io\vov\vitamio\widget\MediaController$onPauseListener.class
+* vitamio\bin\classes\io\vov\vitamio\widget\MediaController.class
+* vitamio\bin\classes\io\vov\vitamio\widget\OutlineTextView.class
+* vitamio\bin\classes\io\vov\vitamio\widget\VideoView$1.class
+* vitamio\bin\classes\io\vov\vitamio\widget\VideoView$2.class
+* vitamio\bin\classes\io\vov\vitamio\widget\VideoView$3.class
+* vitamio\bin\classes\io\vov\vitamio\widget\VideoView$4.class
+* vitamio\bin\classes\io\vov\vitamio\widget\VideoView$5$1.class
+* vitamio\bin\classes\io\vov\vitamio\widget\VideoView$5.class
+* vitamio\bin\classes\io\vov\vitamio\widget\VideoView$6.class
+* vitamio\bin\classes\io\vov\vitamio\widget\VideoView$7.class
+* vitamio\bin\classes\io\vov\vitamio\widget\VideoView$8.class
+* vitamio\bin\classes\io\vov\vitamio\widget\VideoView$9.class
+* vitamio\bin\classes\io\vov\vitamio\widget\VideoView.class
+* vitamio\bin\initactivity.jar
+* vitamio\bin\res\
+* vitamio\bin\res\drawable-hdpi\
+* vitamio\bin\res\drawable-hdpi\bar_dn.png
+* vitamio\bin\res\drawable-hdpi\bar_up.png
+* vitamio\bin\res\drawable-hdpi\btn_scale.png
+* vitamio\bin\res\drawable-hdpi\fill.png
+* vitamio\bin\res\drawable-hdpi\ic_launcher.png
+* vitamio\bin\res\drawable-hdpi\mediacontroller_bg.png
+* vitamio\bin\res\drawable-hdpi\mediacontroller_pause01.png
+* vitamio\bin\res\drawable-hdpi\mediacontroller_pause02.png
+* vitamio\bin\res\drawable-hdpi\mediacontroller_play01.png
+* vitamio\bin\res\drawable-hdpi\mediacontroller_play02.png
+* vitamio\bin\res\drawable-hdpi\mediacontroller_seekbar01.png
+* vitamio\bin\res\drawable-hdpi\mediacontroller_seekbar02.png
+* vitamio\bin\res\drawable-hdpi\next.png
+* vitamio\bin\res\drawable-hdpi\progress_btn_normal.png
+* vitamio\bin\res\drawable-hdpi\progress_btn_press.png
+* vitamio\bin\res\drawable-ldpi\
+* vitamio\bin\res\drawable-ldpi\ic_launcher.png
+* vitamio\bin\res\drawable-mdpi\
+* vitamio\bin\res\drawable-mdpi\ic_launcher.png
+* vitamio\bin\res\drawable-xhdpi\
+* vitamio\bin\res\drawable-xhdpi\btn_play_collected.png
+* vitamio\bin\res\drawable-xhdpi\ic_launcher.png
+* vitamio\bin\res\drawable-xhdpi\mediacontroller_pause.png
+* vitamio\bin\res\drawable-xhdpi\mediacontroller_play.png
+* vitamio\bin\res\drawable-xhdpi\scrubber_control_disabled_holo.png
+* vitamio\bin\res\drawable-xhdpi\scrubber_control_focused_holo.png
+* vitamio\bin\res\drawable-xhdpi\scrubber_control_normal_holo.png
+* vitamio\bin\res\drawable-xhdpi\scrubber_control_pressed_holo.png
+* vitamio\bin\res\drawable-xhdpi\scrubber_primary_holo.9.png
+* vitamio\bin\res\drawable-xhdpi\scrubber_secondary_holo.9.png
+* vitamio\bin\res\drawable-xhdpi\scrubber_track_holo_dark.9.png
+* vitamio\bin\res\drawable-xxhdpi\
+* vitamio\bin\res\drawable-xxhdpi\btn_play_back_normal.png
+* vitamio\bin\res\drawable-xxhdpi\btn_play_back_press.png
+* vitamio\bin\res\drawable-xxhdpi\btn_play_collect_normal.png
+* vitamio\bin\res\drawable-xxhdpi\btn_play_collect_press.png
+* vitamio\bin\res\drawable-xxhdpi\btn_play_collected.png
+* vitamio\bin\res\drawable-xxhdpi\btn_play_download_normal.png
+* vitamio\bin\res\drawable-xxhdpi\btn_play_download_press.png
+* vitamio\bin\res\drawable-xxhdpi\ib_pause.png
+* vitamio\bin\res\drawable-xxhdpi\ib_play.png
+* vitamio\bin\res\drawable-xxhdpi\ic_launcher.png
+* vitamio\bin\res\drawable-xxhdpi\mediacontroller_pause.png
+* vitamio\bin\res\drawable-xxhdpi\mediacontroller_play.png
+* vitamio\bin\res\drawable-xxhdpi\play.png
+* vitamio\bin\res\drawable-xxhdpi\scrubber_control_disabled_holo.png
+* vitamio\bin\res\drawable-xxhdpi\scrubber_control_focused_holo.png
+* vitamio\bin\res\drawable-xxhdpi\scrubber_control_normal_holo.png
+* vitamio\bin\res\drawable-xxhdpi\scrubber_control_pressed_holo.png
+* vitamio\bin\res\drawable-xxhdpi\scrubber_primary_holo.9.png
+* vitamio\bin\res\drawable-xxhdpi\scrubber_secondary_holo.9.png
+* vitamio\bin\res\drawable-xxhdpi\scrubber_track_holo_dark.9.png
+* vitamio\bin\res\drawable\
+* vitamio\bin\res\drawable\icon.png
+* vitamio\build.gradle
+* vitamio\gen\
+* vitamio\gen\io\
+* vitamio\gen\io\vov\
+* vitamio\gen\io\vov\vitamio\
+* vitamio\gen\io\vov\vitamio\BuildConfig.java
+* vitamio\gen\io\vov\vitamio\R.java
+* vitamio\libs\
+* vitamio\libs\arm64-v8a\
+* vitamio\libs\arm64-v8a\libOMX.24.so
+* vitamio\libs\arm64-v8a\libffmpeg.so
+* vitamio\libs\arm64-v8a\libstlport_shared.so
+* vitamio\libs\arm64-v8a\libvao.0.so
+* vitamio\libs\arm64-v8a\libvinit.so
+* vitamio\libs\arm64-v8a\libvplayer.so
+* vitamio\libs\arm64-v8a\libvscanner.so
+* vitamio\libs\arm64-v8a\libvvo.0.so
+* vitamio\libs\arm64-v8a\libvvo.9.so
+* vitamio\libs\armeabi-v7a\
+* vitamio\libs\armeabi-v7a\libOMX.11.so
+* vitamio\libs\armeabi-v7a\libOMX.14.so
+* vitamio\libs\armeabi-v7a\libOMX.18.so
+* vitamio\libs\armeabi-v7a\libOMX.9.so
+* vitamio\libs\armeabi-v7a\libffmpeg.so
+* vitamio\libs\armeabi-v7a\libstlport_shared.so
+* vitamio\libs\armeabi-v7a\libvao.0.so
+* vitamio\libs\armeabi-v7a\libvplayer.so
+* vitamio\libs\armeabi-v7a\libvscanner.so
+* vitamio\libs\armeabi-v7a\libvvo.0.so
+* vitamio\libs\armeabi-v7a\libvvo.7.so
+* vitamio\libs\armeabi-v7a\libvvo.8.so
+* vitamio\libs\armeabi-v7a\libvvo.9.so
+* vitamio\libs\armeabi-v7a\libvvo.j.so
+* vitamio\libs\x86\
+* vitamio\libs\x86\libOMX.14.so
+* vitamio\libs\x86\libOMX.18.so
+* vitamio\libs\x86\libOMX.9.so
+* vitamio\libs\x86\libffmpeg.so
+* vitamio\libs\x86\libstlport_shared.so
+* vitamio\libs\x86\libvao.0.so
+* vitamio\libs\x86\libvplayer.so
+* vitamio\libs\x86\libvscanner.so
+* vitamio\libs\x86\libvvo.0.so
+* vitamio\libs\x86\libvvo.9.so
+* vitamio\libs\x86\libvvo.j.so
+* vitamio\proguard-project.txt
+* vitamio\project.properties
+* vitamio\res\
+* vitamio\res\drawable-hdpi\
+* vitamio\res\drawable-hdpi\bar_dn.png
+* vitamio\res\drawable-hdpi\bar_up.png
+* vitamio\res\drawable-hdpi\btn_scale.png
+* vitamio\res\drawable-hdpi\fill.png
+* vitamio\res\drawable-hdpi\ic_launcher.png
+* vitamio\res\drawable-hdpi\mediacontroller_bg.png
+* vitamio\res\drawable-hdpi\mediacontroller_pause01.png
+* vitamio\res\drawable-hdpi\mediacontroller_pause02.png
+* vitamio\res\drawable-hdpi\mediacontroller_play01.png
+* vitamio\res\drawable-hdpi\mediacontroller_play02.png
+* vitamio\res\drawable-hdpi\mediacontroller_seekbar01.png
+* vitamio\res\drawable-hdpi\mediacontroller_seekbar02.png
+* vitamio\res\drawable-hdpi\next.png
+* vitamio\res\drawable-hdpi\progress_btn_normal.png
+* vitamio\res\drawable-hdpi\progress_btn_press.png
+* vitamio\res\drawable-ldpi\
+* vitamio\res\drawable-ldpi\ic_launcher.png
+* vitamio\res\drawable-mdpi\
+* vitamio\res\drawable-mdpi\ic_launcher.png
+* vitamio\res\drawable-xhdpi\
+* vitamio\res\drawable-xhdpi\btn_play_collected.png
+* vitamio\res\drawable-xhdpi\ic_launcher.png
+* vitamio\res\drawable-xhdpi\mediacontroller_pause.png
+* vitamio\res\drawable-xhdpi\mediacontroller_play.png
+* vitamio\res\drawable-xhdpi\scrubber_control_disabled_holo.png
+* vitamio\res\drawable-xhdpi\scrubber_control_focused_holo.png
+* vitamio\res\drawable-xhdpi\scrubber_control_normal_holo.png
+* vitamio\res\drawable-xhdpi\scrubber_control_pressed_holo.png
+* vitamio\res\drawable-xhdpi\scrubber_primary_holo.9.png
+* vitamio\res\drawable-xhdpi\scrubber_secondary_holo.9.png
+* vitamio\res\drawable-xhdpi\scrubber_track_holo_dark.9.png
+* vitamio\res\drawable-xxhdpi\
+* vitamio\res\drawable-xxhdpi\btn_play_back_normal.png
+* vitamio\res\drawable-xxhdpi\btn_play_back_press.png
+* vitamio\res\drawable-xxhdpi\btn_play_collect_normal.png
+* vitamio\res\drawable-xxhdpi\btn_play_collect_press.png
+* vitamio\res\drawable-xxhdpi\btn_play_collected.png
+* vitamio\res\drawable-xxhdpi\btn_play_download_normal.png
+* vitamio\res\drawable-xxhdpi\btn_play_download_press.png
+* vitamio\res\drawable-xxhdpi\ib_pause.png
+* vitamio\res\drawable-xxhdpi\ib_play.png
+* vitamio\res\drawable-xxhdpi\ic_launcher.png
+* vitamio\res\drawable-xxhdpi\mediacontroller_pause.png
+* vitamio\res\drawable-xxhdpi\mediacontroller_play.png
+* vitamio\res\drawable-xxhdpi\play.png
+* vitamio\res\drawable-xxhdpi\scrubber_control_disabled_holo.png
+* vitamio\res\drawable-xxhdpi\scrubber_control_focused_holo.png
+* vitamio\res\drawable-xxhdpi\scrubber_control_normal_holo.png
+* vitamio\res\drawable-xxhdpi\scrubber_control_pressed_holo.png
+* vitamio\res\drawable-xxhdpi\scrubber_primary_holo.9.png
+* vitamio\res\drawable-xxhdpi\scrubber_secondary_holo.9.png
+* vitamio\res\drawable-xxhdpi\scrubber_track_holo_dark.9.png
+* vitamio\res\drawable\
+* vitamio\res\drawable\btn_collect.xml
+* vitamio\res\drawable\btn_collected_control.xml
+* vitamio\res\drawable\btn_play_back.xml
+* vitamio\res\drawable\btn_play_download.xml
+* vitamio\res\drawable\icon.png
+* vitamio\res\drawable\mediacontroller_button.xml
+* vitamio\res\drawable\mediacontroller_pause_button.xml
+* vitamio\res\drawable\mediacontroller_play_button.xml
+* vitamio\res\drawable\mediacontroller_seekbar.xml
+* vitamio\res\drawable\mediacontroller_seekbar_thumb.xml
+* vitamio\res\drawable\scrubber_control_selector_holo.xml
+* vitamio\res\drawable\scrubber_progress_horizontal_holo_dark.xml
+* vitamio\res\drawable\thumb_bar.xml
+* vitamio\res\layout\
+* vitamio\res\layout\mediacontroller.xml
+* vitamio\res\layout\mediacontroller_top.xml
+* vitamio\res\values\
+* vitamio\res\values\colors.xml
+* vitamio\res\values\strings.xml
+* vitamio\res\values\styles.xml
+* vitamio\src\
+* vitamio\src\io\
+* vitamio\src\io\vov\
+* vitamio\src\io\vov\vitamio\
+* vitamio\src\io\vov\vitamio\EGL.java
+* vitamio\src\io\vov\vitamio\MediaFile.java
+* vitamio\src\io\vov\vitamio\MediaFormat.java
+* vitamio\src\io\vov\vitamio\MediaMetadataRetriever.java
+* vitamio\src\io\vov\vitamio\MediaPlayer.java
+* vitamio\src\io\vov\vitamio\MediaScanner.java
+* vitamio\src\io\vov\vitamio\MediaScannerClient.java
+* vitamio\src\io\vov\vitamio\Metadata.java
+* vitamio\src\io\vov\vitamio\ThumbnailUtils.java
+* vitamio\src\io\vov\vitamio\VIntent.java
+* vitamio\src\io\vov\vitamio\Vitamio.java
+* vitamio\src\io\vov\vitamio\VitamioLicense.java
+* vitamio\src\io\vov\vitamio\activity\
+* vitamio\src\io\vov\vitamio\activity\InitActivity.java
+* vitamio\src\io\vov\vitamio\provider\
+* vitamio\src\io\vov\vitamio\provider\MediaStore.java
+* vitamio\src\io\vov\vitamio\provider\MiniThumbFile.java
+* vitamio\src\io\vov\vitamio\utils\
+* vitamio\src\io\vov\vitamio\utils\Base64.java
+* vitamio\src\io\vov\vitamio\utils\CPU.java
+* vitamio\src\io\vov\vitamio\utils\ContextUtils.java
+* vitamio\src\io\vov\vitamio\utils\Crypto.java
+* vitamio\src\io\vov\vitamio\utils\Device.java
+* vitamio\src\io\vov\vitamio\utils\FileUtils.java
+* vitamio\src\io\vov\vitamio\utils\IOUtils.java
+* vitamio\src\io\vov\vitamio\utils\Log.java
+* vitamio\src\io\vov\vitamio\utils\ScreenResolution.java
+* vitamio\src\io\vov\vitamio\utils\StringUtils.java
+* vitamio\src\io\vov\vitamio\widget\
+* vitamio\src\io\vov\vitamio\widget\CenterLayout.java
+* vitamio\src\io\vov\vitamio\widget\MediaController.java
+* vitamio\src\io\vov\vitamio\widget\OutlineTextView.java
+* vitamio\src\io\vov\vitamio\widget\VideoView.java
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:19.+
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => vitamio_Demo\src\main\AndroidManifest.xml
+* assets\ => vitamio_Demo\src\main\assets
+* libs\armeabi-v7a\libvinit.so => vitamio_Demo\src\main\jniLibs\armeabi-v7a\libvinit.so
+* libs\vitamio.jar => vitamio_Demo\libs\vitamio.jar
+* res\ => vitamio_Demo\src\main\res\
+* src\ => vitamio_Demo\src\main\java\
+
+Missing Android Support Repository:
+-----------------------------------
+Some useful libraries, such as the Android Support Library, are
+installed from a special Maven repository, which should be installed
+via the SDK manager.
+
+It looks like this library is missing from your SDK installation at:
+null
+
+To install it, open the SDK manager, and in the Extras category,
+select "Android Support Repository". You may also want to install the
+"Google Repository" if you want to use libraries like Google Play
+Services.
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
